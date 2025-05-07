@@ -1,0 +1,15 @@
+[package]
+name = "Bofus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.15.0", features = ["bevy_dev_tools"] }
+serde = "1.0.215"
+ron = "0.8.1"
+rand = "0.8.5"
+bevy_mod_raycast = { path = "crates/bevy_mod_raycast" }
+bevy_matchbox = { path = "crates/matchbox/bevy_matchbox" }
+bevy_ggrs = "0.16.0"
+bincode = "1.3.3"
+clap = { version = "4.5.21", features = ["derive"] }
